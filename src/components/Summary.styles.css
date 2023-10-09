@@ -1,0 +1,8 @@
+.summary {
+  display: flex;
+  gap: 2em;
+}
+
+.summary .highlight {
+  color: coral;
+}

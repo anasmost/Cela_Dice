@@ -1,0 +1,35 @@
+.dice__container {
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.dice__header {
+  font-size: 1.5rem;
+}
+
+.die-container {
+  margin: 0 15px !important;
+}
+
+.dice__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #222;
+  color: white;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+}
+.dice__button:disabled {
+  filter: opacity(0.5);
+}
+
+.dice__result {
+  height: 2rem;
+  font-size: 2rem;
+  line-height: 0.5rem;
+}
